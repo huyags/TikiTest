@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vn.tk.test.widget.RoundedTextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:textStyle="bold"
+        android:id="@+id/itemKeyword_textView_label"
+        android:orientation="vertical"
+        android:layout_width="100dp"
+        android:padding="4dp"
+        android:layout_margin="4dp"
+        android:gravity="center"
+        android:maxLines="2"
+        android:textColor="@android:color/white"
+        android:ellipsize="end"
+        android:radius="3dp"
+        android:layout_height="match_parent"/>
