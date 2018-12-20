@@ -5,6 +5,6 @@ import retrofit2.http.GET
 
 interface ApiService {
 
-    @GET("keywords.json")
+    @GET("vn/tk/test/keywords.json")
     fun getKeywords(): Call<List<String>?>
 }

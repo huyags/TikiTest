@@ -11,6 +11,7 @@ abstract class BaseRecyclerAdapter<M> :
     RecyclerView.Adapter<RecyclerView.ViewHolder>(),
     BaseAdapterInt<M> {
 
+
     class ViewHolder(v: View) : RecyclerView.ViewHolder(v)
 
     override fun getItemCount(): Int {

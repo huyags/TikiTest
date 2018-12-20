@@ -1,4 +1,4 @@
-package vn.tk.test.architecture
+package vn.tk.test.app
 
 import android.arch.lifecycle.*
 import android.os.Bundle

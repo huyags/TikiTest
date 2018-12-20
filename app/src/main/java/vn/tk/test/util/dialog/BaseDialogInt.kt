@@ -1,4 +1,4 @@
-package vn.tk.test.util.base
+package vn.tk.test.util.dialog
 
 interface BaseDialogInt {
 

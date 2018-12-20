@@ -1,4 +1,4 @@
-package vn.tk.test.util.base
+package vn.tk.test.util.dialog
 
 import android.app.Activity
 import android.support.annotation.LayoutRes

@@ -1,4 +1,4 @@
-package vn.tk.test.architecture
+package vn.tk.test.app
 
 import android.arch.lifecycle.ViewModel
 import vn.com.elc.esupport.data.livedata.ProgressLiveData

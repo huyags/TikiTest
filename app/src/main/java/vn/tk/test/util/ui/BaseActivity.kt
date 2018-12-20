@@ -5,13 +5,14 @@ import android.support.annotation.LayoutRes
 import android.support.v7.app.AppCompatActivity
 import android.widget.Toast
 import com.huy.library.handler.ViewClickListener
+import vn.tk.test.util.dialog.ProgressDialog
 
 
 abstract class BaseActivity : AppCompatActivity(),
     BaseView,
     ViewClickListener {
 
-    //private var progressDialog: TopProgress? = null
+    private var progressDialog: ProgressDialog? = null
 
     @LayoutRes
     protected abstract fun layoutResource(): Int
@@ -26,8 +27,8 @@ abstract class BaseActivity : AppCompatActivity(),
 
     override fun onDestroy() {
         super.onDestroy()
-        //progressDialog?.dismiss()
-        //progressDialog = null
+        progressDialog?.dismiss()
+        progressDialog = null
     }
 
     /**
@@ -42,13 +43,13 @@ abstract class BaseActivity : AppCompatActivity(),
     }
 
     override fun showProgress() {
-        /* if(null == progressDialog)
-             progressDialog = TopProgress(this)
-         progressDialog?.show()*/
+        if(null == progressDialog)
+             progressDialog = ProgressDialog(this)
+         progressDialog?.show()
     }
 
     override fun hideProgress() {
-        //progressDialog?.dismiss()
+        progressDialog?.dismiss()
     }
 
 

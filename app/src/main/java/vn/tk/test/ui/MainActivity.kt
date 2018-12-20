@@ -6,7 +6,7 @@ import android.view.View
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.item_keyword.view.*
 import vn.tk.test.R
-import vn.tk.test.architecture.ArchitectureActivity
+import vn.tk.test.app.ArchitectureActivity
 import vn.tk.test.util.ColorUtil
 import vn.tk.test.util.addAdapter
 import vn.tk.test.util.base.BaseAdapterInt
